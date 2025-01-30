@@ -185,7 +185,7 @@ This applications uses JSON Web Token (JWT) to handle authentication. The token 
 
 # Cross-Origin Resource Sharing (CORS)
 
-This applications has CORS enabled by default on all API endpoints. The default configuration allows requests from `http://localhost:3000` to help speed up your frontend testing. The CORS allowed origins can be changed by setting them in the config file. Please check the following sources to learn more about CORS.
+This applications has CORS enabled by default on all API endpoints. The default configuration allows requests from `http://localhost:8000` to help speed up your frontend testing. The CORS allowed origins can be changed by setting them in the config file. Please check the following sources to learn more about CORS.
 
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
 - https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
