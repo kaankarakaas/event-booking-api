@@ -2,15 +2,15 @@
 
 ## Event Booking API
 
-----------
-
+This is a simple event booking API built with **Laravel**. It allows users to create, update, delete and view events. It also allows users to book events and view their bookings. The API is documented using Swagger and can be accessed at [http://localhost:8000/api/documentation](http://localhost:8000/api/documentation).
 # _Getting started_
 
 ## Installation
 
-Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/5.4/installation#installation)
+Please check the _**official laravel installation guide**_ for server requirements before you start. [Official Documentation](https://laravel.com/docs/5.4/installation#installation)
 
-<h3>Dependencies require a PHP version ">= 8.1.0".</h2>
+<h3>Dependencies require a `PHP version ">= 8.1.0"`.</h2>
+
 To ensure your project works correctly, you need to enable the following extensions in your php.ini file:
 
 ```ini
@@ -21,24 +21,24 @@ extension=openssl
 
 To do this, open your php.ini file and remove the ; character at the beginning of the lines above to enable them. After saving and closing the file, restart your web server.
 
-Clone the repository
+**Clone the repository**
 
 ```sh
 git clone https://github.com/kaankarakaas/event-booking-api.git
 ```
 
-Switch to the repo folder
+**Switch to the repo folder**
 
 ```sh
 cd event-booking-api
 ```
-Install all the dependencies using composer
+**Install all the dependencies using composer**
 
 ```sh
 composer install
 ```
 
-Change configuration in .env.example file
+**Change configuration in `.env.example` file**
 
 ```sh
 DB_CONNECTION=mysql
@@ -49,37 +49,37 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-Copy the example env file and make the required configuration changes in the .env file
+**Copy the example env file and make the required configuration changes in the `.env` file**
 
 ```sh
 cp .env.example .env
 ```
 
-Generate a new application key
+**Generate a new application key**
 
 ```sh
 php artisan key:generate
 ```
 
-Generate a new JWT authentication secret key
+**Generate a new JWT authentication secret key**
 
 ```sh
 php artisan jwt:generate
 ```
 
-Run the database migrations (**Set the database connection in .env before migrating**)
+**Run the database migrations (**Set the database connection in `.env` before migrating**)**
 
 ```sh
 php artisan migrate
 ```
 
-Start the local development server
+**Start the local development server**
 
 ```sh
 php artisan serve
 ```
 
-You can now access the server at http://localhost:8000
+**You can now access the server at http://localhost:8000**
 
 **TL;DR command list**
 
