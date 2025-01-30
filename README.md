@@ -67,6 +67,13 @@ php artisan key:generate
 php artisan jwt:generate
 ```
 
+
+**Generate a API Documentation**
+
+```sh
+php artisan l5-swagger:generate
+```
+
 **Run the database migrations (**Set the database connection in `.env` before migrating**)**
 
 ```sh
