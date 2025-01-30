@@ -73,7 +73,7 @@ You can now access the server at http://localhost:8000
 **TL;DR command list**
 
 ```sh
-git clone git@github.com:kaankarakaas/event-booking-api.git
+git clone git clone https://github.com/kaankarakaas/event-booking-api.git
 cd event-booking-api
 composer install
 cp .env.example .env
