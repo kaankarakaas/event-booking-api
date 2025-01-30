@@ -18,9 +18,11 @@ extension=fileinfo
 extension=pdo_mysql
 extension=openssl
 ```
+
 To do this, open your php.ini file and remove the ; character at the beginning of the lines above to enable them. After saving and closing the file, restart your web server.
 
 Clone the repository
+
 ```sh
 git clone https://github.com/kaankarakaas/event-booking-api.git
 ```
