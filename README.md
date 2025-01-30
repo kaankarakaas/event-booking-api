@@ -38,6 +38,17 @@ Install all the dependencies using composer
 composer install
 ```
 
+Change configuration in .env.example file
+
+```sh
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
 Copy the example env file and make the required configuration changes in the .env file
 
 ```sh
