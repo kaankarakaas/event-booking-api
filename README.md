@@ -4,7 +4,7 @@
 
 ----------
 
-# Getting started
+# _Getting started_
 
 ## Installation
 
@@ -12,6 +12,7 @@ Please check the official laravel installation guide for server requirements bef
 
 <h3>Dependencies require a PHP version ">= 8.1.0".</h2>
 To ensure your project works correctly, you need to enable the following extensions in your php.ini file:
+
 ```ini
 extension=fileinfo
 extension=pdo_mysql
