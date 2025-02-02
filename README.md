@@ -52,7 +52,7 @@ DB_PASSWORD=
 **Copy the example env file and make the required configuration changes in the `.env` file**
 
 ```sh
-cp .env.example .env
+copy .env.example .env
 ```
 
 **Generate a new application key**
@@ -64,7 +64,7 @@ php artisan key:generate
 **Generate a new JWT authentication secret key**
 
 ```sh
-php artisan jwt:generate
+php artisan jwt:secret
 ```
 
 
@@ -94,9 +94,13 @@ php artisan serve
 git clone https://github.com/kaankarakaas/event-booking-api.git
 cd event-booking-api
 composer install
-cp .env.example .env
+copy .env.example .env
 php artisan key:generate
-php artisan jwt:generate 
+php artisan jwt:secret 
+php artisan l5-swagger:generate
+php artisan migrate
+php artisan db:seed
+php artisan serve
 ```
 
 **Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
